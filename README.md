@@ -90,7 +90,7 @@ shapeLayer.path = parsedPath
 // Path from SVG File
 let svgURL = NSBundle.mainBundle().URLForResource("fistBump", withExtension: "svg")
 let pathFromSVGFile = UIBezierPath.pathWithSVGURL(svgURL)
-shapelayer.path = pathFromSVGFile
+shapeLayer.path = pathFromSVGFile
 ```
 
 #####Output:#####
